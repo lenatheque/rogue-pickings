@@ -19,6 +19,8 @@ body {
 	align-items: center;
 	display: flex;
 	flex-flow:row wrap;
+	flex: 1 100%;
+	
 }
 
 h1,
@@ -121,6 +123,14 @@ header nav ul li a{
 	width: 33%;
 	height: auto;
 	border-top: 1px solid #eee;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-items: center;
+	
+
+
+	
 }
 
 .section-one h3 {

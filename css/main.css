@@ -1,16 +1,30 @@
+html{
+	font-size:16px;
+}
+
 body {
 	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	font-size: 1em;
+	flex-flow:row wrap;
+
 }
 
 .container{
 	max-width: 1200px;
 	margin: 0 auto;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	flex-flow:row wrap;
 }
 
 h1,
 h2,
 h3 {
-	color: green 
+	color: green;
 	text-transform: uppercase;
 	font-weight: 700;
 }
@@ -26,19 +40,22 @@ h3 {
 
 p {
 	font-size: 14px;
-	line-height: 21px;
+	line-height: auto;
     padding: 0 30px;
 }
 
 /*The widths are in a percentage!*/
 header {
-	height: 110px;
+	height: auto;
 	border-bottom: 3px solid #77a466;
 	margin: 0 auto;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	flex-flow:row wrap;
 }
 
 header h1 {
-	float: left;
 	margin: 0;
 	padding: 38px 0;
 }
@@ -47,7 +64,6 @@ header h1 span {
 }
 
 header nav {
-	float: right;
 	padding: 46px 0;
 }
 header nav ul {
@@ -70,12 +86,15 @@ header nav ul li a{
 .top-section,
 .bottom-section {
 	margin: 0 auto;
-	clear: both;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	flex-flow:row wrap;
+
 }
 
 .main-image {
 	height: auto;
-	float: left;
 }
 .main-image img {
 	width: 100%;
@@ -84,7 +103,6 @@ header nav ul li a{
 
 .main-title {
 	height: auto;
-	float: left;
 }
 .main-title h2 {
 	text-align: left;
@@ -94,7 +112,7 @@ header nav ul li a{
 .main-title p {
 	padding: 0;
 	font-size: 16px;
-	line-height: 25px;
+	line-height: auto;
 }
 
 .section-one,
@@ -102,7 +120,6 @@ header nav ul li a{
 .section-three {
 	width: 33%;
 	height: auto;
-	float: left;
 	border-top: 1px solid #eee;
 }
 
@@ -132,21 +149,24 @@ header nav ul li a{
 .reviews {
 	color: #333;
 	font-size: 16px;
-	line-height: 21px;
+	line-height: auto;
 }
 
 .address {
 	font-size: 16px;
-	line-height: 24px;
+	line-height: auto;
 }
 
 /*The widths are in a percentage!*/
 footer {
-	height: 50px;
+	height: auto;
 	border-top: 3px solid #eee;
 	margin: 0 auto;
-	clear: both;
+	justify-content: center;
+	align-items: center;
+	display: flex;
 	text-align: center;
+	flex-flow:row wrap;
 }
 footer span {
 	font-family: 'Galada', cursive;
